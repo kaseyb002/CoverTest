@@ -7,13 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03577D611ED396FA00642B0A /* WineAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03577D601ED396FA00642B0A /* WineAPI.swift */; };
+		03577D631ED3A0F600642B0A /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03577D621ED3A0F600642B0A /* DetailVC.swift */; };
+		03577D651ED3A34A00642B0A /* wine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 03577D641ED3A34A00642B0A /* wine.jpg */; };
+		03577D691ED3AD8600642B0A /* WineAttributeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03577D681ED3AD8600642B0A /* WineAttributeLabel.swift */; };
+		03577D6B1ED3AF6500642B0A /* Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03577D6A1ED3AF6500642B0A /* Reference.swift */; };
+		036D849E1ED3916100467492 /* WineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036D849D1ED3916100467492 /* WineCell.swift */; };
+		036D84A01ED391EF00467492 /* Wine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036D849F1ED391EF00467492 /* Wine.swift */; };
+		036D84A21ED3931500467492 /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036D84A11ED3931500467492 /* Util.swift */; };
 		03CF13621ED37541000DEF06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF13611ED37541000DEF06 /* AppDelegate.swift */; };
-		03CF13641ED37541000DEF06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF13631ED37541000DEF06 /* ViewController.swift */; };
-		03CF13671ED37541000DEF06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CF13651ED37541000DEF06 /* Main.storyboard */; };
 		03CF13691ED37541000DEF06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03CF13681ED37541000DEF06 /* Assets.xcassets */; };
 		03CF136C1ED37541000DEF06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CF136A1ED37541000DEF06 /* LaunchScreen.storyboard */; };
 		03CF13771ED37541000DEF06 /* TemplateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF13761ED37541000DEF06 /* TemplateTests.swift */; };
 		03CF13821ED37541000DEF06 /* TemplateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF13811ED37541000DEF06 /* TemplateUITests.swift */; };
+		03CF139C1ED38D47000DEF06 /* WineListVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03CF139B1ED38D47000DEF06 /* WineListVC.storyboard */; };
+		03CF139E1ED38E6A000DEF06 /* WineCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03CF139D1ED38E6A000DEF06 /* WineCell.xib */; };
+		03CF13A21ED38FD0000DEF06 /* WineListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CF13A11ED38FD0000DEF06 /* WineListVC.swift */; };
+		99492AE7EDC05C57C7001204 /* Pods_Template.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C142848717EE44A9474F9D7D /* Pods_Template.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +44,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03577D601ED396FA00642B0A /* WineAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineAPI.swift; sourceTree = "<group>"; };
+		03577D621ED3A0F600642B0A /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		03577D641ED3A34A00642B0A /* wine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wine.jpg; sourceTree = "<group>"; };
+		03577D681ED3AD8600642B0A /* WineAttributeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineAttributeLabel.swift; sourceTree = "<group>"; };
+		03577D6A1ED3AF6500642B0A /* Reference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reference.swift; sourceTree = "<group>"; };
+		036D849D1ED3916100467492 /* WineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineCell.swift; sourceTree = "<group>"; };
+		036D849F1ED391EF00467492 /* Wine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wine.swift; sourceTree = "<group>"; };
+		036D84A11ED3931500467492 /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		03CF135E1ED37541000DEF06 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CF13611ED37541000DEF06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		03CF13631ED37541000DEF06 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		03CF13661ED37541000DEF06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		03CF13681ED37541000DEF06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		03CF136B1ED37541000DEF06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		03CF136D1ED37541000DEF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +63,12 @@
 		03CF137D1ED37541000DEF06 /* TemplateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TemplateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03CF13811ED37541000DEF06 /* TemplateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateUITests.swift; sourceTree = "<group>"; };
 		03CF13831ED37541000DEF06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03CF139B1ED38D47000DEF06 /* WineListVC.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WineListVC.storyboard; sourceTree = "<group>"; };
+		03CF139D1ED38E6A000DEF06 /* WineCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WineCell.xib; sourceTree = "<group>"; };
+		03CF13A11ED38FD0000DEF06 /* WineListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WineListVC.swift; sourceTree = "<group>"; };
+		8A877D1BDFF561E98CB6B6CF /* Pods-Template.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.release.xcconfig"; path = "Pods/Target Support Files/Pods-Template/Pods-Template.release.xcconfig"; sourceTree = "<group>"; };
+		A68B9B276CB5154FFA58ECDD /* Pods-Template.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Template.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Template/Pods-Template.debug.xcconfig"; sourceTree = "<group>"; };
+		C142848717EE44A9474F9D7D /* Pods_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99492AE7EDC05C57C7001204 /* Pods_Template.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				03CF13751ED37541000DEF06 /* TemplateTests */,
 				03CF13801ED37541000DEF06 /* TemplateUITests */,
 				03CF135F1ED37541000DEF06 /* Products */,
+				EDC358EA86131F8D3569C715 /* Pods */,
+				11921C0243A7E2D48E09F61B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +123,20 @@
 			isa = PBXGroup;
 			children = (
 				03CF13611ED37541000DEF06 /* AppDelegate.swift */,
-				03CF13631ED37541000DEF06 /* ViewController.swift */,
-				03CF13651ED37541000DEF06 /* Main.storyboard */,
 				03CF13681ED37541000DEF06 /* Assets.xcassets */,
 				03CF136A1ED37541000DEF06 /* LaunchScreen.storyboard */,
 				03CF136D1ED37541000DEF06 /* Info.plist */,
+				03CF139B1ED38D47000DEF06 /* WineListVC.storyboard */,
+				03CF139D1ED38E6A000DEF06 /* WineCell.xib */,
+				036D849D1ED3916100467492 /* WineCell.swift */,
+				036D84A11ED3931500467492 /* Util.swift */,
+				03577D6A1ED3AF6500642B0A /* Reference.swift */,
+				03CF13A11ED38FD0000DEF06 /* WineListVC.swift */,
+				03577D621ED3A0F600642B0A /* DetailVC.swift */,
+				03577D681ED3AD8600642B0A /* WineAttributeLabel.swift */,
+				036D849F1ED391EF00467492 /* Wine.swift */,
+				03577D601ED396FA00642B0A /* WineAPI.swift */,
+				03577D641ED3A34A00642B0A /* wine.jpg */,
 			);
 			path = Template;
 			sourceTree = "<group>";
@@ -125,6 +159,23 @@
 			path = TemplateUITests;
 			sourceTree = "<group>";
 		};
+		11921C0243A7E2D48E09F61B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C142848717EE44A9474F9D7D /* Pods_Template.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EDC358EA86131F8D3569C715 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A68B9B276CB5154FFA58ECDD /* Pods-Template.debug.xcconfig */,
+				8A877D1BDFF561E98CB6B6CF /* Pods-Template.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 03CF13861ED37541000DEF06 /* Build configuration list for PBXNativeTarget "Template" */;
 			buildPhases = (
+				E293389D8734388415755A4B /* [CP] Check Pods Manifest.lock */,
 				03CF135A1ED37541000DEF06 /* Sources */,
 				03CF135B1ED37541000DEF06 /* Frameworks */,
 				03CF135C1ED37541000DEF06 /* Resources */,
+				E61797166A470181C63016E9 /* [CP] Embed Pods Frameworks */,
+				E736B959361B206623DEF3D4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -235,9 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CF139E1ED38E6A000DEF06 /* WineCell.xib in Resources */,
+				03577D651ED3A34A00642B0A /* wine.jpg in Resources */,
+				03CF139C1ED38D47000DEF06 /* WineListVC.storyboard in Resources */,
 				03CF136C1ED37541000DEF06 /* LaunchScreen.storyboard in Resources */,
 				03CF13691ED37541000DEF06 /* Assets.xcassets in Resources */,
-				03CF13671ED37541000DEF06 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,13 +313,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E293389D8734388415755A4B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E61797166A470181C63016E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Template/Pods-Template-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E736B959361B206623DEF3D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Template/Pods-Template-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		03CF135A1ED37541000DEF06 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03CF13641ED37541000DEF06 /* ViewController.swift in Sources */,
+				036D84A01ED391EF00467492 /* Wine.swift in Sources */,
+				03CF13A21ED38FD0000DEF06 /* WineListVC.swift in Sources */,
+				03577D691ED3AD8600642B0A /* WineAttributeLabel.swift in Sources */,
+				036D84A21ED3931500467492 /* Util.swift in Sources */,
+				03577D611ED396FA00642B0A /* WineAPI.swift in Sources */,
 				03CF13621ED37541000DEF06 /* AppDelegate.swift in Sources */,
+				03577D6B1ED3AF6500642B0A /* Reference.swift in Sources */,
+				036D849E1ED3916100467492 /* WineCell.swift in Sources */,
+				03577D631ED3A0F600642B0A /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,14 +410,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		03CF13651ED37541000DEF06 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				03CF13661ED37541000DEF06 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		03CF136A1ED37541000DEF06 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -413,6 +516,7 @@
 		};
 		03CF13871ED37541000DEF06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A68B9B276CB5154FFA58ECDD /* Pods-Template.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F9E934J8Z2;
@@ -426,6 +530,7 @@
 		};
 		03CF13881ED37541000DEF06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A877D1BDFF561E98CB6B6CF /* Pods-Template.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F9E934J8Z2;
@@ -514,6 +619,7 @@
 				03CF13881ED37541000DEF06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03CF13891ED37541000DEF06 /* Build configuration list for PBXNativeTarget "TemplateTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +628,7 @@
 				03CF138B1ED37541000DEF06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03CF138C1ED37541000DEF06 /* Build configuration list for PBXNativeTarget "TemplateUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +637,7 @@
 				03CF138E1ED37541000DEF06 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
